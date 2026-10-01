@@ -11,7 +11,7 @@
 
 ### 1. Problem Statement
 
-Pada latihan ini saya dan raffi membuat program sederhana untuk menghitung tarif parkir.
+Pada latihan ini kami membuat program sederhana untuk menghitung tarif parkir.
 
 Program menerima dua data, yaitu jenis kendaraan dan lama parkir. Lama parkir dimasukkan dalam satuan menit. Setelah itu durasi diubah menjadi jam. Jika masih ada sisa menit, maka waktunya dibulatkan ke atas.
 
@@ -85,7 +85,7 @@ Program memiliki beberapa fungsi utama:
 
 ### 6. Decomposition
 
-Saya membagi masalah menjadi beberapa bagian supaya lebih mudah dikerjakan.
+Atau proses membagi masalah menjadi beberapa bagian supaya lebih mudah dikerjakan.
 
 ```text
 Tarif Parkir
@@ -106,7 +106,7 @@ Tarif Parkir
 └── Menampilkan hasil
 ```
 
-Jadi saya tidak langsung membuat semua kode sekaligus. Saya pecah dulu menjadi beberapa bagian kecil.
+Jadi disini kita tidak langsung membuat semua kode sekaligus. melainkan pecah dulu menjadi beberapa bagian kecil.
 
 ---
 
@@ -159,7 +159,7 @@ Karena masih ada 30 menit:
 
 ### 8. Abstraction
 
-Untuk membatasi jenis kendaraan, saya menggunakan `enum`.
+Untuk membatasi jenis kendaraan, kita perlu menggunakan `enum`.
 
 ```dart
 enum jeniskendaraan {
