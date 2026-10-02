@@ -29,5 +29,6 @@ String tarifParkir(jeniskendaraan kendaraan, int durasi) {
   String bagianBelakang = strTarif.substring(strTarif.length - 3);
   String nominal = 'Rp$bagianDepan.$bagianBelakang';
 
+  // menampilkan hasil
   return 'Jenis Kendaraan: ${kendaraan.name} | Durasi: $durasi menit | Total: $nominal';
 }
